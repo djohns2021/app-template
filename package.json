@@ -16,7 +16,6 @@
     "webpack": "^1.14.0"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.1.4",
-    "postcss-loader": "^1.2.1"
+    "babel-preset-env": "^1.1.4"
   }
 }

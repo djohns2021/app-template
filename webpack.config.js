@@ -38,14 +38,14 @@ module.exports = {
         include: [
           path.join(__dirname, 'app/styles')
         ],
-        loader: 'style!css?modules&importLoaders=1&localIdentName=[path][name]---[local]---[hash:base64:5]!postcss!sass'
+        loader: 'style!css?modules&importLoaders=1&localIdentName=[path][name]---[local]---[hash:base64:5]!sass'
       },
       {
         test: /(\.scss|\.css)$/,
         exclude: [
           path.join(__dirname, 'app/styles')
         ],
-        loader: 'style!css!postcss!sass'
+        loader: 'style!css!sass'
       }
     ]
   }
